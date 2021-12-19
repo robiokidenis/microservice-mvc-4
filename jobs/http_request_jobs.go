@@ -74,8 +74,8 @@ func (j *httpRequestJobContract) PostHttpRequest() {
 	}
 
 	var param = url.Values{}
-	param.Set("name", "Ginanjar")
-	param.Set("email", "ginanjar@gmai.com")
+	param.Set("name", "Demo user")
+	param.Set("email", "user@email.com")
 	param.Set("birthday", "1992-10-05T00:00:00Z")
 	param.Set("password", "secret")
 
